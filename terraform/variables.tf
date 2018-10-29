@@ -13,3 +13,7 @@ type = "string"
 variable tenant_id {
 type = "string"
 }
+
+variable tenant_name{
+type = "string"
+}
