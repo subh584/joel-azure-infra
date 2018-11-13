@@ -24,8 +24,8 @@ resource "azurerm_virtual_machine" "testvm1" {
 
     os_profile {
         computer_name  = "myvmmachineAzure"
-        admin_username = "azureuser23"
-        admin_password   = "passwd@1"
+        admin_username = "${var.admin_username}"
+        admin_password   = "${var.admin_password}"
     }
 
     os_profile_linux_config {
