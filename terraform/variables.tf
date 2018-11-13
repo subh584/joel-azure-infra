@@ -1,4 +1,4 @@
-variable subscription_id {
+ariable subscription_id {
 type = "string"
 }
 
@@ -14,6 +14,10 @@ variable tenant_id {
 type = "string"
 }
 
-variable tenant_name{
+variable admin_username {
+type = "string"
+}
+
+variable admin_password {
 type = "string"
 }
